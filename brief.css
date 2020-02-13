@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.conteneur
+{
+    margin-top:-15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header
+{
+    background: url(cover.png) no-repeat;
+    background-size:  cover;
+    background-attachment: fixed;
+    padding-bottom: 30%;
+    
+}
+header ul 
+{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    
+   
+}
+header li a
+{
+    text-decoration: none;
+    padding: 6px;
+    display:block;
+    margin-top: 15px;
+    background-color: #394d66;
+    width: 100px;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+    
+
+}
+header ul :hover
+{
+    color:white;
+    background-color:#fe5b5c;
+    width: 100px;
+
+}
+
+.titre0
+{
+    position: relative;
+    top:100px;
+    right:220px;
+    color:white;
+    opacity: 70%;
+    text-align: center;
+    font-size: 50px; 
+}
+.titre1
+{
+    text-align: center;
+    font-size: 40px;
+}
+.one, .two , .three
+{
+    display: flex;
+    margin-left: 10% ;
+    padding: 50px;
+}
+.image1, .image2, .image3
+{
+    border-radius: 50%;
+    height:200px;
+    width:200px;
+    margin-left: 20%;
+}
+.paratitre, .paratitre1 , .paratitre3
+{
+    margin: 3% 0% 0% 5%;
+    text-align: justify;
+}
+.paratitre p{
+    width: 80%;
+}
+.paratitre1 p{
+    width: 80%;
+}
+.paratitre3 p{
+    width: 80%;
+  
+}
+.three
+{
+    margin-bottom: 2%;
+}
+
+.all
+{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    box-sizing: border-box;
+    padding:40px 30px;
+    color: white;
+    background-color: #00121b;
+    height:200px;
+    align-items: center;
+    opacity:0.9;
+    
+}
+.list1
+{
+width:11%;
+line-height: 30px;
+font-size: 13px;
+list-style-type: none;
+
+}
+.list1 ul
+{
+    list-style-type: none;
+}
+
+.list1 ul a
+{
+   
+    color:white;
+    text-decoration: none;
+
+}
+.list2
+{
+    width:20%;
+    line-height: 30px;
+    list-style-type: none;
+    font-size: 12px;
+}
+.list3
+{
+   font-size: 14px; 
+   list-style-type: none;
+}
+.list4
+{
+    background-color: #00121b; 
+    color:white;
+    opacity:0.9;
+    text-align: center;
+    font-size: 60%;
+    padding-bottom: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
